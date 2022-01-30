@@ -34,17 +34,17 @@ Partial Class Form1
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.lblR5 = New System.Windows.Forms.Label()
         Me.lblR4 = New System.Windows.Forms.Label()
         Me.lblR3 = New System.Windows.Forms.Label()
         Me.lblR2 = New System.Windows.Forms.Label()
         Me.lblR1 = New System.Windows.Forms.Label()
-        Me.Label13 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
+        Me.lblR5 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
         Me.btnAceptar = New System.Windows.Forms.Button()
         Me.btnLimpiar = New System.Windows.Forms.Button()
         Me.btnSalir = New System.Windows.Forms.Button()
@@ -56,7 +56,7 @@ Partial Class Form1
         '
         'GroupBox1
         '
-        Me.GroupBox1.BackColor = System.Drawing.Color.DarkKhaki
+        Me.GroupBox1.BackColor = System.Drawing.Color.MidnightBlue
         Me.GroupBox1.Controls.Add(Me.Label5)
         Me.GroupBox1.Controls.Add(Me.Label3)
         Me.GroupBox1.Controls.Add(Me.txtAzucar)
@@ -66,9 +66,10 @@ Partial Class Form1
         Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Font = New System.Drawing.Font("Tahoma", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.GroupBox1.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.GroupBox1.Location = New System.Drawing.Point(12, 12)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(344, 233)
+        Me.GroupBox1.Size = New System.Drawing.Size(344, 259)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Datos de Ingreso"
@@ -143,7 +144,7 @@ Partial Class Form1
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(21, 65)
+        Me.Label6.Location = New System.Drawing.Point(21, 40)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(172, 21)
         Me.Label6.TabIndex = 1
@@ -152,7 +153,7 @@ Partial Class Form1
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(21, 123)
+        Me.Label7.Location = New System.Drawing.Point(21, 96)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(121, 21)
         Me.Label7.TabIndex = 2
@@ -160,7 +161,7 @@ Partial Class Form1
         '
         'GroupBox2
         '
-        Me.GroupBox2.BackColor = System.Drawing.Color.Honeydew
+        Me.GroupBox2.BackColor = System.Drawing.Color.MidnightBlue
         Me.GroupBox2.Controls.Add(Me.lblR5)
         Me.GroupBox2.Controls.Add(Me.lblR4)
         Me.GroupBox2.Controls.Add(Me.lblR3)
@@ -175,28 +176,18 @@ Partial Class Form1
         Me.GroupBox2.Controls.Add(Me.Label11)
         Me.GroupBox2.Controls.Add(Me.Label12)
         Me.GroupBox2.Font = New System.Drawing.Font("Tahoma", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.GroupBox2.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.GroupBox2.Location = New System.Drawing.Point(12, 277)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(532, 240)
+        Me.GroupBox2.Size = New System.Drawing.Size(530, 266)
         Me.GroupBox2.TabIndex = 10
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Resultados"
         '
-        'lblR5
-        '
-        Me.lblR5.AutoSize = True
-        Me.lblR5.Font = New System.Drawing.Font("Tahoma", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.lblR5.ForeColor = System.Drawing.Color.Red
-        Me.lblR5.Location = New System.Drawing.Point(472, 178)
-        Me.lblR5.Name = "lblR5"
-        Me.lblR5.Size = New System.Drawing.Size(38, 22)
-        Me.lblR5.TabIndex = 13
-        Me.lblR5.Text = "0.0"
-        '
         'lblR4
         '
         Me.lblR4.AutoSize = True
-        Me.lblR4.Location = New System.Drawing.Point(472, 62)
+        Me.lblR4.Location = New System.Drawing.Point(209, 221)
         Me.lblR4.Name = "lblR4"
         Me.lblR4.Size = New System.Drawing.Size(37, 21)
         Me.lblR4.TabIndex = 12
@@ -205,7 +196,7 @@ Partial Class Form1
         'lblR3
         '
         Me.lblR3.AutoSize = True
-        Me.lblR3.Location = New System.Drawing.Point(209, 179)
+        Me.lblR3.Location = New System.Drawing.Point(209, 161)
         Me.lblR3.Name = "lblR3"
         Me.lblR3.Size = New System.Drawing.Size(37, 21)
         Me.lblR3.TabIndex = 11
@@ -214,7 +205,7 @@ Partial Class Form1
         'lblR2
         '
         Me.lblR2.AutoSize = True
-        Me.lblR2.Location = New System.Drawing.Point(209, 123)
+        Me.lblR2.Location = New System.Drawing.Point(209, 96)
         Me.lblR2.Name = "lblR2"
         Me.lblR2.Size = New System.Drawing.Size(37, 21)
         Me.lblR2.TabIndex = 10
@@ -223,27 +214,16 @@ Partial Class Form1
         'lblR1
         '
         Me.lblR1.AutoSize = True
-        Me.lblR1.Location = New System.Drawing.Point(209, 62)
+        Me.lblR1.Location = New System.Drawing.Point(209, 40)
         Me.lblR1.Name = "lblR1"
         Me.lblR1.Size = New System.Drawing.Size(37, 21)
         Me.lblR1.TabIndex = 9
         Me.lblR1.Text = "0.0"
         '
-        'Label13
-        '
-        Me.Label13.AutoSize = True
-        Me.Label13.Font = New System.Drawing.Font("Tahoma", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label13.ForeColor = System.Drawing.Color.Red
-        Me.Label13.Location = New System.Drawing.Point(351, 178)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(103, 22)
-        Me.Label13.TabIndex = 8
-        Me.Label13.Text = "Pago Final"
-        '
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(351, 62)
+        Me.Label9.Location = New System.Drawing.Point(21, 221)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(101, 21)
         Me.Label9.TabIndex = 7
@@ -252,7 +232,7 @@ Partial Class Form1
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(21, 179)
+        Me.Label8.Location = New System.Drawing.Point(21, 161)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(145, 21)
         Me.Label8.TabIndex = 6
@@ -282,13 +262,35 @@ Partial Class Form1
         Me.Label12.Size = New System.Drawing.Size(0, 21)
         Me.Label12.TabIndex = 0
         '
+        'lblR5
+        '
+        Me.lblR5.AutoSize = True
+        Me.lblR5.Font = New System.Drawing.Font("Tahoma", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.lblR5.ForeColor = System.Drawing.Color.White
+        Me.lblR5.Location = New System.Drawing.Point(405, 143)
+        Me.lblR5.Name = "lblR5"
+        Me.lblR5.Size = New System.Drawing.Size(49, 28)
+        Me.lblR5.TabIndex = 13
+        Me.lblR5.Text = "0.0"
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Font = New System.Drawing.Font("Tahoma", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Label13.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.Label13.Location = New System.Drawing.Point(364, 108)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(132, 28)
+        Me.Label13.TabIndex = 8
+        Me.Label13.Text = "Pago Final"
+        '
         'btnAceptar
         '
         Me.btnAceptar.BackColor = System.Drawing.Color.Black
         Me.btnAceptar.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.btnAceptar.Location = New System.Drawing.Point(35, 37)
+        Me.btnAceptar.Location = New System.Drawing.Point(31, 27)
         Me.btnAceptar.Name = "btnAceptar"
-        Me.btnAceptar.Size = New System.Drawing.Size(94, 49)
+        Me.btnAceptar.Size = New System.Drawing.Size(123, 61)
         Me.btnAceptar.TabIndex = 11
         Me.btnAceptar.Text = "Aceptar"
         Me.btnAceptar.UseVisualStyleBackColor = False
@@ -297,9 +299,9 @@ Partial Class Form1
         '
         Me.btnLimpiar.BackColor = System.Drawing.Color.Black
         Me.btnLimpiar.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.btnLimpiar.Location = New System.Drawing.Point(35, 104)
+        Me.btnLimpiar.Location = New System.Drawing.Point(31, 99)
         Me.btnLimpiar.Name = "btnLimpiar"
-        Me.btnLimpiar.Size = New System.Drawing.Size(94, 46)
+        Me.btnLimpiar.Size = New System.Drawing.Size(123, 57)
         Me.btnLimpiar.TabIndex = 12
         Me.btnLimpiar.Text = "Limpiar"
         Me.btnLimpiar.UseVisualStyleBackColor = False
@@ -308,23 +310,23 @@ Partial Class Form1
         '
         Me.btnSalir.BackColor = System.Drawing.Color.Black
         Me.btnSalir.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.btnSalir.Location = New System.Drawing.Point(35, 167)
+        Me.btnSalir.Location = New System.Drawing.Point(31, 167)
         Me.btnSalir.Name = "btnSalir"
-        Me.btnSalir.Size = New System.Drawing.Size(94, 41)
+        Me.btnSalir.Size = New System.Drawing.Size(123, 59)
         Me.btnSalir.TabIndex = 13
         Me.btnSalir.Text = "Salir"
         Me.btnSalir.UseVisualStyleBackColor = False
         '
         'GroupBox3
         '
-        Me.GroupBox3.BackColor = System.Drawing.Color.CadetBlue
+        Me.GroupBox3.BackColor = System.Drawing.Color.MidnightBlue
         Me.GroupBox3.Controls.Add(Me.btnSalir)
         Me.GroupBox3.Controls.Add(Me.btnAceptar)
         Me.GroupBox3.Controls.Add(Me.btnLimpiar)
         Me.GroupBox3.Font = New System.Drawing.Font("Tahoma", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.GroupBox3.Location = New System.Drawing.Point(381, 12)
+        Me.GroupBox3.Location = New System.Drawing.Point(363, 12)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(163, 233)
+        Me.GroupBox3.Size = New System.Drawing.Size(181, 259)
         Me.GroupBox3.TabIndex = 14
         Me.GroupBox3.TabStop = False
         '
@@ -332,9 +334,9 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.LightSteelBlue
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.ClientSize = New System.Drawing.Size(552, 556)
+        Me.ClientSize = New System.Drawing.Size(554, 555)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
